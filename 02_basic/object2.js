@@ -49,4 +49,17 @@ console.log(tinderuser);
 
 console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+console.log(Object.entries(tinderuser));// data array ke form me dega
+
+
+const course = {
+    coursename: "js in hindi",
+    prince: "999",
+    courseinstructor: "Radha"
+}
+
+//course.courseinstructor
+
+const {courseinstructor: teacher} = course
+//console.log(courseinstructor)
+console.log(teacher)
