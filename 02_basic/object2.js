@@ -60,6 +60,21 @@ const course = {
 
 //course.courseinstructor
 
-const {courseinstructor: teacher} = course
+const {courseinstructor: teacher} = course //isko distructuring khte hai joki react me jada use hota hai
 //console.log(courseinstructor)
-console.log(teacher)
+console.log(teacher);
+
+
+//const navbar =  (company) => {
+
+//}
+//navbar(company = "hitesh")
+
+//----------ye api ka data hai ex hai but aishe hi hota hai json ke formet me
+//{
+   //" name":"Radha",
+   // "coursename":"Js in hindi",
+   // "price" : "free"
+//}
+
+
