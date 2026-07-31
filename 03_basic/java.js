@@ -18,5 +18,6 @@ map.set("Lakshman", "Urmila")
 console.log(map)
 
 for(const [a, b] of map){
-    console.log(a,b)
+    console.log(a, b)
 }
+
